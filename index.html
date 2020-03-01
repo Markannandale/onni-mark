@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Project Dashboard</title>
+  </head>
+
+    <body class="mb-5 mt-5">
+    <!-- Top of page nave -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-main">
+        <!-- Branding (logo) -->
+        <a class="navbar-brand" href="#">
+            <img src="wordmark.svg" alt="logo" height="50"/>
+        </a>
+        <!-- Hamburger menu button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="https://image.flaticon.com/icons/svg/2089/2089792.svg" alt="hamburger" height="20"/>
+        </button>
+        <!-- Collapsible nav -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">All projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+
+    <!-- Nav anchored to the bottom of the page -->
+    <nav>
+        <div class="sub-nav">
+            <ul class="nav nav-bottom nav-pills nav-fill">
+                <!-- Projects page -->
+                <li class="nav-item">
+                    <a class="nav-link active p-2" href="#">
+                        <img src="icons/project.svg" alt="project" height="30"/>
+                    </a>
+                </li>
+                <!-- New project page -->
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="#">
+                        <img src="icons/plus.svg" alt="new" height="30"/>
+                    </a>
+                </li>
+                <!-- User profile page -->
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="#">
+                        <img class="profile-img" src="https://randomuser.me/api/portraits/women/32.jpg" alt="profile" height="30" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Main site content -->
+<div class="container-fluid">
+    <!-- Header at the top of the page -->
+    <div class="jumbotron">
+        <h1>Everything. By Everyone.</h1>
+        <h3>All your projects, in one place.</h3>
+        <!-- Search bar -->
+        <div class="input-group mt-4">
+            <input type="text" class="form-control" placeholder="Search..." value="greenhouse">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">
+                    <img src="icons/search.svg" alt="search" />
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <!-- All project listings -->
+    <div class="projects">
+        <div class="card mb-4 d-flex flex-wrap">
+            <div class="row">
+                <!-- Thumbnail at the top of the card -->
+                <div class="col-md-6">
+                    <img class="img-fluid" src="https://www.rimolgreenhouses.com/sites/default/files/greenhouses/galleries/Center2P30.jpg" alt=""/>
+                </div>
+                <!-- Project title -->
+                <!-- <h2 class="card-header"></h2> -->
+                <div class="col-md-6 ">
+                    <h2><a href="project.html">Passive Greenhouse</a></h2>
+                    <!-- User attribution -->
+                    <h5 class="card-title">By Nicole W.</h5>
+                    <!-- Description -->
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectiteur adispiscing elit, sed diam.</p>
+                    <!-- Category icons -->
+                    <div class="btn-group category-group" role="group">
+                        <button class="icon icon-category">
+                            <img src="icons/leaf.svg" alt="environmental" />
+                        </button>
+                        <button class="icon icon-category">
+                            <img src="icons/user.svg" alt="social" />
+                        </button>
+                    </div>
+                    <!-- Views and likes icons (used button group as default styling is close) -->
+                    <div class="btn-group stats-group" role="group">
+                        <button class="stat">
+                            <img src="icons/eye.svg" alt="views" class="mr-2"/>4390
+                        </button>
+                        <button class="stat">
+                            <img src="icons/heart.svg" alt="likes" class="mr-2"/>210
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4 d-flex flex-wrap">
+            <div class="row">
+                <!-- Thumbnail at the top of the card -->
+                <div class="col-md-6">
+                    <img class="img-fluid" src="https://ceresgs.com/wp-content/uploads/2018/05/12x16-DIY-Exterior.jpg" alt=""/>
+                </div>
+                <!-- Project title -->
+                <!-- <h2 class="card-header"></h2> -->
+                <div class="col-md-6 ">
+                    <h2><a href="project.html">Solar Greenhouse</a></h2>
+                    <!-- User attribution -->
+                    <h5 class="card-title">By Alex Q.</h5>
+                    <!-- Description -->
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectiteur adispiscing elit, sed diam.</p>
+                    <!-- Category icons -->
+                    <div class="btn-group category-group" role="group">
+                        <button class="icon icon-category">
+                            <img src="icons/leaf.svg" alt="environmental" />
+                        </button>
+                        <button class="icon icon-category">
+                            <img src="icons/cpu.svg" alt="tech" />
+                        </button>
+                    </div>
+                    <!-- Views and likes icons (used button group as default styling is close) -->
+                    <div class="btn-group stats-group" role="group">
+                        <button class="stat">
+                            <img src="icons/eye.svg" alt="views" class="mr-2"/>3629
+                        </button>
+                        <button class="stat">
+                            <img src="icons/heart.svg" alt="likes" class="mr-2"/>152
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End of projects -->
+    </div>
+</div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
